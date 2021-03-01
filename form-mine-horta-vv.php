@@ -23,7 +23,7 @@ if(!isset($firma))
 
 <h1>Mine Horta Vale Verde </h1>
 
-<form method="post" action="Salva-resposta.php">
+<form method="post" action="salva-resposta.php">
     <p>Firma: <input type="text" name="firma" size="80" value="<?=$firma?>"></p>
     <p>Data: <input type="text" name="fata" size="80" value="<?=$data?>"></p>
     <p>Nº <input type="text" name="num" size="80" value="<?=$num?>"></p>
