@@ -1,3 +1,26 @@
+<?php
+
+if(!isset($firma)) 
+{
+	$firma = "";
+	$data = "";
+	$num = "";
+	$ende = "";
+	$comp = "";
+    $bairro = "";
+	$cidade = "";
+	$estado = "";
+	$cep = "";
+	$cnpj = "";
+    $inscr = "";
+	$tels = "";
+	$cel = "";
+	$email = "";
+	$obs = "";
+}
+
+?>
+
 <h1>Mine Horta Vale Verde </h1>
 
 <form method="post" action="Salva-resposta.php">
