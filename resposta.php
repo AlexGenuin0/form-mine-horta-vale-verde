@@ -1,1 +1,1 @@
-<h1>Obrigado pela sua mensagem<h1>
+<h1>Formulário recebido. Obrigado.<h1>
