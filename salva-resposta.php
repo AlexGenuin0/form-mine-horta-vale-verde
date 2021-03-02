@@ -37,6 +37,13 @@
         die;
     }
 
+    if(empty($cnpj))
+    {
+        echo "<b>O campo CNPJ deve ser preenchido.</b>";
+        include "form-mine-horta-vv.php";
+        die;
+    }
+
     if(validaCNPJ($cnpj) == false)
     {
         echo "<b>O CNPJ precisa ser válido.</b>";
